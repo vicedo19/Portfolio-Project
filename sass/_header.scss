@@ -1,0 +1,33 @@
+.header {
+    height: 100vh;
+    background-image: url("../img/jr-korpa-9XngoIpxcEo-unsplash.jpg");
+    background-size: cover;
+    background-position: top;
+    position: relative;
+
+    &__nav {
+        height: 7rem;
+        background-color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.project {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+
+    &__name {
+        font-size: 6rem;
+    }
+
+    &__text {
+        font-size: 1.6rem;
+        margin-bottom: 3rem;
+    }
+}
